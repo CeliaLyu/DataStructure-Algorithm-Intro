@@ -152,7 +152,7 @@ Think of a social gathering where people are interacting with each other. You ca
 - **Adjacency Matrix**: A 2D array of size V x V where V is the number of vertices in a graph.
 
     <p align="center">
-  <img src="figures/ds_am_1.png" alt="am_1" width="500" height="250" title="Figure 1.8: Visualization of the Adjacency Matrix Data Structure: Elements and Indices."/>
+  <img src="figures/ds_am_1.png" alt="am_1" width="500" height="180" title="Figure 1.8: Visualization of the Adjacency Matrix Data Structure: Elements and Indices."/>
 </p>
   
 - **Adjacency List**: An array of lists. The size of the array is the number of vertices.
