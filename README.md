@@ -42,10 +42,14 @@ Stay tuned and consider following us for upcoming updates.
 ## Data Structure
 <hr>
 
-### Data Structure
-* [Abstract Data Structures](chapters_pdf/Abstract_Data_Structures.pdf)
-* Discrete Programming
-* Recurrence Relation
+### Array
+A contiguous block of memory containing elements of the same type. Use an array when you have a fixed number of items and you want quick access to each item based on its position, like books on a numbered shelf. 
+
+**Simple Example**
+
+Think of a shelf in a bookstore. The shelf has specific spots for books, numbered from 1 to 100. If you know the number, you can directly reach out and grab the book from its exact location without having to search.
+
+
 
 *Note: everything is still in progress, so use it with caution.*
 
@@ -63,6 +67,8 @@ Stay tuned and consider following us for upcoming updates.
 *Note: everything is still in progress, so use it with caution.*
 
 <hr>
+
+
 
 
 
