@@ -76,7 +76,7 @@ Imagine a scavenger hunt game where each hint card has a clue to the location of
 A last-in-first-out (LIFO) data structure. Operations mainly include push (to add) and pop (to remove). Use a stack when you want quick access to the most recent item, like a pile of plates.
 
 <p align="center">
-  <img src="figures/ds_stack_1.png" alt="ll_1" width="500" height="250" title="Figure 1.3: Visualization of the Stack Data Structure: Elements and Indices."/>
+  <img src="figures/ds_stack_1.png" alt="stack_1" width="500" height="270" title="Figure 1.3: Visualization of the Stack Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -88,7 +88,7 @@ Think of a stack of plates in a cafeteria. When a new plate is washed, it's plac
 A first-in-first-out (FIFO) data structure. Operations mainly include enqueue (to add) and dequeue (to remove). Use a queue when you need to maintain the order of arrival, like customers waiting in line.
 
 <p align="center">
-  <img src="figures/ds_queue_1.png" alt="ll_1" width="500" height="150" title="Figure 1.4: Visualization of the Queue Data Structure: Elements and Indices."/>
+  <img src="figures/ds_queue_1.png" alt="queue_1" width="500" height="150" title="Figure 1.4: Visualization of the Queue Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -98,7 +98,44 @@ Picture a line of people at a movie theater ticket counter. The first person in 
 
 ### Tree
 
+A hierarchical structure with a root and nodes connected by edges.
 
+- **Binary Search Trees (BST)**:
+    
+    A binary tree with the property that all nodes in the left subtree have values less than the node and all nodes in the right subtree have values greater than the node. BSTs are particularly useful when you want to store data that you'll need to retrieve, insert, or delete quickly, while maintaining order.
+
+<p align="center">
+  <img src="figures/ds_BST_1.png" alt="BST_1" width="200" height="180" title="Figure 1.5: Visualization of the Binary Search Trees (BST) Data Structure: Elements and Indices."/>
+</p>
+    
+    **Simple Example**
+    
+    Imagine you run a library. When a book is borrowed or returned, you need a quick way to update the list. Also, you often want to find books with titles "before" or "after" a given title in alphabetical order. A BST would be a good choice because it can keep the book titles in order while allowing for quick updates and lookups.
+
+- **Tries (or Prefix Trees)**:
+    
+    A tree for storing a dynamic set of strings. They are commonly used in scenarios involving large datasets of strings.
+    
+    A Trie is a tree-like data structure used to store a dynamic set of strings. The key characteristic is that the position of a node in this tree defines the key with which that node is associated. As a result, strings with common prefixes share the same path until the point their prefixes diverge.
+
+  
+    
+    **Simple Example**
+    
+    You're designing the search functionality for a dictionary app. When a user starts typing "choc", you want to immediately suggest words like "chocolate", "chock", and "chock-full". A trie can help you do this efficiently since it can quickly narrow down the list of words based on the typed prefix.
+
+- **Heaps**:
+    
+    A tree-based data structure used primarily in algorithms like heap sort. Heaps are used when you need frequent access to the 'largest' or 'smallest' element, without the need to sort the entire set of data.
+
+  
+    
+    **Simple Example**
+    
+    You run a music streaming service, and you want to always recommend the top 10 most listened to songs. As songs get played, their counts change. A heap can help you keep track of the top songs efficiently. When a song is played, you can quickly update its count and its position in the top songs without having to rearrange everything.
+    
+    - **Max Heap**: For any given node, its value is always greater than or equal to the values of its children. This means the highest value is at the root.
+    - **Min Heap**: For any given node, its value is always less than or equal to the values of its children, keeping the smallest value at the root.
 
 ### Graph
 
