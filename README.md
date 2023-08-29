@@ -39,6 +39,13 @@ We're in the process of crafting a book now, which is inspired by and expanding 
 
 Stay tuned and consider following us for upcoming updates.
 
+
+
+
+
+
+
+
 ## Table of Contents
 <hr>
 
