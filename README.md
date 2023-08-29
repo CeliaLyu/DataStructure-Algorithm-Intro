@@ -166,7 +166,7 @@ Think of a social gathering where people are interacting with each other. You ca
 A matrix is like a table or grid with rows and columns, where each cell in the grid contains a piece of data. Think of it like an Excel spreadsheet, where you have rows (often represented by numbers) and columns (often represented by letters). The spot where a particular row and column intersect is a cell, and you can store information in it.
 
   <p align="center">
-  <img src="figures/ds_matrix_1.png" alt="al_1" width="500" height="180" title="Figure 1.10: Visualization of the Matrix Data Structure: Elements and Indices."/>
+  <img src="figures/ds_matrix_1.png" alt="al_1" width="500" height="160" title="Figure 1.10: Visualization of the Matrix Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -212,7 +212,7 @@ Union Find has two primary operations:
 By repeatedly using these operations, you can determine which people are connected either directly (by shaking hands) or indirectly (knowing someone who knows someone).
 
   <p align="center">
-  <img src="figures/ds_uf_1.png" alt="uf_1" width="400" height="280" title="Figure 1.12: Visualization of the Union Find Data Structure: Elements and Indices."/>
+  <img src="figures/ds_uf_1.png" alt="uf_1" width="400" height="260" title="Figure 1.12: Visualization of the Union Find Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
