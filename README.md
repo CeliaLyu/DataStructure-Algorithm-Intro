@@ -244,20 +244,18 @@ Consider, for example, a network of computers. If you want to see if two compute
 ## Referring Resources and Materials
 
 * https://www.geeksforgeeks.org/what-is-array/
-* [https://devopedia.org/linked-list-data-structure]
-* [https://www.programiz.com/dsa/stack]
-* [https://www.javatpoint.com/data-structure-queue]
-* [https://courses.engr.illinois.edu/cs225/sp2023/resources/bst/]
-* [https://www.geeksforgeeks.org/trie-insert-and-search/]
-* [https://www.geeksforgeeks.org/heap-data-structure/]
-* [https://www.geeksforgeeks.org/add-and-remove-edge-in-adjacency-matrix-representation-of-a-graph/]
-* [https://www.jomaclass.com/blog/graph-representation-edge-list-adjacency-matrix-and-adjacency-lists]
-* [https://www.geeksforgeeks.org/sparse-matrix-representation/]
-* [https://www.geeksforgeeks.org/hashing-data-structure/]
-* [https://iq.opengenus.org/union-find/]
-* []
-* []
-* []
+* https://devopedia.org/linked-list-data-structure
+* https://www.programiz.com/dsa/stack
+* https://www.javatpoint.com/data-structure-queue
+* https://courses.engr.illinois.edu/cs225/sp2023/resources/bst/
+* https://www.geeksforgeeks.org/trie-insert-and-search/
+* https://www.geeksforgeeks.org/heap-data-structure/
+* https://www.geeksforgeeks.org/add-and-remove-edge-in-adjacency-matrix-representation-of-a-graph/
+* https://www.jomaclass.com/blog/graph-representation-edge-list-adjacency-matrix-and-adjacency-lists
+* https://www.geeksforgeeks.org/sparse-matrix-representation/
+* https://www.geeksforgeeks.org/hashing-data-structure/
+* https://iq.opengenus.org/union-find/
+* 
 
 ## Feedback
 
