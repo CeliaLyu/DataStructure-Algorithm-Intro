@@ -234,7 +234,27 @@ Consider, for example, a network of computers. If you want to see if two compute
 
 ### Two Pointers
 
-### 
+Think of "two pointers" as two bookmarks in a book. One bookmark starts at the beginning of the book, and the other at the end. They help you keep track of two locations simultaneously.
+
+<p align="center">
+  <img src="figures/al_two_pointers.png" alt="tp_1" width="400" height="260" title="Figure 1.12: Visualization of Two Pointers."/>
+</p>
+
+
+**Basic Logic:**
+
+Let's say you're trying to find two pages in the book that together tell a specific story or detail. To find them efficiently, you adjust the bookmarks. You might move the first bookmark a few pages forward and the second one a few pages backward, depending on the clues you find. The goal is to locate the right pages without flipping through the entire book one page at a time.
+
+In essence, the "two-pointer" approach is like using dual bookmarks to smartly navigate a book, offering a blend of speed, simplicity, and adaptability.
+
+**Typical questions that can be addressed using this approach:**
+
+1. **Sum Questions**:
+    - **Two Sum**: In a list of numbers, find any two numbers that add up to a given target. By having pointers at the start and end of a sorted list and moving them towards each other, you can efficiently find such pairs.
+2. **Palindrome Check**:
+    - Determine if a given string is a palindrome. By comparing characters from the start and end of the string, and moving inwards, you can check for palindrome properties.
+3. **LinkedList Cycles**:
+    - Determine if a sequence of items (like a chain of connected elements) has a loop in it. Using one pointer moving faster and one slower, if they ever meet, there's a loop.
 
 
 *Note: everything is still in progress, so use it with caution.*
