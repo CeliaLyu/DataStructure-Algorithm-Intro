@@ -163,11 +163,66 @@ Think of a social gathering where people are interacting with each other. You ca
 
 ### Matrix
 
+A matrix is like a table or grid with rows and columns, where each cell in the grid contains a piece of data. Think of it like an Excel spreadsheet, where you have rows (often represented by numbers) and columns (often represented by letters). The spot where a particular row and column intersect is a cell, and you can store information in it.
+
+    <p align="center">
+  <img src="figures/ds_matrix_1.png" alt="al_1" width="500" height="300" title="Figure 1.10: Visualization of the Matrix Data Structure: Elements and Indices."/>
+</p>
+
+**Simple Example**
+Imagine a big board, like a chessboard, but it can be as large as you want. Each individual square on this board is a place where you can write down a number or a piece of information. This entire board, with all its individual squares filled with data, is what we call a matrix in the world of computer science and mathematics.
+
 ### Hash Map / Hash Table
+
+Used to store key-value pairs, allowing for quick storage and retrieval. They use a hash function to compute an index where an element will be stored. The real efficiency of a hash map comes from being able to quickly access the data you want without searching through everything.
+
+**A Brief Introduction**
+
+Imagine a massive room with many lockers. You have many books, each with a unique title, and you want a system that allows you to place each book in a specific locker so that whenever you need a particular book, you can find it instantly without checking every locker.
+
+A "hash map" works in a similar fashion. It's like this room with lockers. The hash map takes the book title, processes it through a special function (called a "hash function"), and gives you a locker number. You then put the book in that locker or retrieve it from there when needed.
+
+    <p align="center">
+  <img src="figures/ds_hm_1.png" alt="hm_1" width="500" height="300" title="Figure 1.11: Visualization of the Hash Map Data Structure: Elements and Indices."/>
+</p>
+
+**Simple Example**
+
+Let's say you have three books: "Harry Potter", "Moby Dick", and "Pride and Prejudice".
+
+1. You want to store "Harry Potter". The hash function tells you to put it in locker #5.
+2. Next, for "Moby Dick", the function points you to locker #23.
+3. Lastly, "Pride and Prejudice" goes into locker #8.
+
+Now, when you want to read "Moby Dick", instead of searching through every locker, the hash map directly tells you, "Look in locker #23!"
 
 ### Union Find
 
+"Union Find" is a data structure used to keep track of disjoint sets (i.e., sets that have no element in common) and is particularly useful for certain problems that involve determining connected components in a network or ensuring the absence of cycles in a graph. 
 
+It typically uses an array (or sometimes a tree structure) to represent each individual's group. Initially, each person is their own group. As people become acquainted, their group identities merge.
+
+**Main Idea**
+
+Union Find has two primary operations:
+
+1. **Union**: When two individuals or groups decide to merge, you note down this merge event in the magical notebook. This is the "union" operation.
+2. **Find**: If you ever want to check if two people are in the same group, you consult the notebook. This quick check is the "find" operation.
+
+By repeatedly using these operations, you can determine which people are connected either directly (by shaking hands) or indirectly (knowing someone who knows someone).
+
+    <p align="center">
+  <img src="figures/ds_uf_1.png" alt="uf_1" width="500" height="300" title="Figure 1.12: Visualization of the Union Find Data Structure: Elements and Indices."/>
+</p>
+
+**Simple Example**
+Imagine a room full of people where everyone is standing alone, and no one knows anyone else. The objective is to form groups (or teams) and find out if two people belong to the same group.
+
+"Union Find" is like a magical notebook that keeps track of these groups. Whenever two people decide to team up (or even if two teams decide to merge into a larger team), you make a note in this notebook. And when you're curious about whether two people are in the same team, you can quickly check the notebook to get your answer.
+
+**Real-world Applications**
+
+Consider, for example, a network of computers. If you want to see if two computers are connected directly or indirectly, the "Union Find" structure can help. It's like quickly checking if two computers belong to the same network cluster.
 
 *Note: everything is still in progress, so use it with caution.*
 
