@@ -39,7 +39,14 @@ We're in the process of crafting a book now, which is inspired by and expanding 
 
 Stay tuned and consider following us for upcoming updates.
 
-
+<div align="center">
+    <!-- <a target="_blank" href="https://www.liyinscience.com/"><img src="https://img.shields.io/badge/Subscribe-30K-brightgreen"></a>&nbsp; -->
+    
+    <a target="_blank" href="https://www.linkedin.com/in/li-yin-00b0456b/"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
+    <a target="_blank" href="https://twitter.com/liyinscience"><img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fshields.io"></a>
+    <br>
+    🔥&nbsp; Among the <a href="https://github.com/topics/algorithms-and-data-structures" target="_blank">top DSA</a> repositories on GitHub
+</div>
 
 
 
