@@ -105,7 +105,7 @@ A hierarchical structure with a root and nodes connected by edges.
     A binary tree with the property that all nodes in the left subtree have values less than the node and all nodes in the right subtree have values greater than the node. BSTs are particularly useful when you want to store data that you'll need to retrieve, insert, or delete quickly, while maintaining order.
 
 <p align="center">
-  <img src="figures/ds_BST_1.png" alt="BST_1" width="200" height="180" title="Figure 1.5: Visualization of the Binary Search Trees (BST) Data Structure: Elements and Indices."/>
+  <img src="figures/ds_BST_1.png" alt="BST_1" width="300" height="180" title="Figure 1.5: Visualization of the Binary Search Trees (BST) Data Structure: Elements and Indices."/>
 </p>
     
     **Simple Example**
