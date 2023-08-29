@@ -104,13 +104,13 @@ A hierarchical structure with a root and nodes connected by edges.
     
     A binary tree with the property that all nodes in the left subtree have values less than the node and all nodes in the right subtree have values greater than the node. BSTs are particularly useful when you want to store data that you'll need to retrieve, insert, or delete quickly, while maintaining order.
 
-<p align="center">
-  <img src="figures/ds_BST_1.png" alt="BST_1" width="300" height="180" title="Figure 1.5: Visualization of the Binary Search Trees (BST) Data Structure: Elements and Indices."/>
-</p>
-    
     **Simple Example**
     
     Imagine you run a library. When a book is borrowed or returned, you need a quick way to update the list. Also, you often want to find books with titles "before" or "after" a given title in alphabetical order. A BST would be a good choice because it can keep the book titles in order while allowing for quick updates and lookups.
+
+<p align="center">
+  <img src="figures/ds_BST_1.png" alt="BST_1" width="300" height="180" title="Figure 1.5: Visualization of the Binary Search Trees (BST) Data Structure: Elements and Indices."/>
+</p>
 
 - **Tries (or Prefix Trees)**:
     
@@ -118,11 +118,13 @@ A hierarchical structure with a root and nodes connected by edges.
     
     A Trie is a tree-like data structure used to store a dynamic set of strings. The key characteristic is that the position of a node in this tree defines the key with which that node is associated. As a result, strings with common prefixes share the same path until the point their prefixes diverge.
 
-  
-    
     **Simple Example**
     
     You're designing the search functionality for a dictionary app. When a user starts typing "choc", you want to immediately suggest words like "chocolate", "chock", and "chock-full". A trie can help you do this efficiently since it can quickly narrow down the list of words based on the typed prefix.
+
+  <p align="center">
+  <img src="figures/ds_tries_1.png" alt="tries_1" width="400" height="300" title="Figure 1.6: Visualization of the Tries Data Structure: Elements and Indices."/>
+</p>
 
 - **Heaps**:
     
