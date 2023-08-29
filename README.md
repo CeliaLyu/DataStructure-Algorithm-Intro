@@ -234,28 +234,43 @@ Consider, for example, a network of computers. If you want to see if two compute
 
 ### Two Pointers
 
+### 
 
 
 *Note: everything is still in progress, so use it with caution.*
 
 <hr>
 
-
-
-
-
-
-
-
-
 ## Referring Resources and Materials
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* Skiena, Steven S. The algorithm design manual: Text. Vol. 1. Springer Science & Business Media, 1998.
+* [https://www.geeksforgeeks.org/what-is-array/]
+* [https://devopedia.org/linked-list-data-structure]
+* [https://www.programiz.com/dsa/stack]
+* [https://www.javatpoint.com/data-structure-queue]
+* [https://courses.engr.illinois.edu/cs225/sp2023/resources/bst/]
+* [https://www.geeksforgeeks.org/trie-insert-and-search/]
+* [https://www.geeksforgeeks.org/heap-data-structure/]
+* [https://www.geeksforgeeks.org/add-and-remove-edge-in-adjacency-matrix-representation-of-a-graph/]
+* [https://www.jomaclass.com/blog/graph-representation-edge-list-adjacency-matrix-and-adjacency-lists]
+* [https://www.geeksforgeeks.org/sparse-matrix-representation/]
+* [https://www.geeksforgeeks.org/hashing-data-structure/]
+* [https://iq.opengenus.org/union-find/]
+* []
+* []
+* []
 
 ## Feedback
 
-If you have ideas to improve the book, about formatting, more contents, or correct the errors, do not hesitate to let me know.
+If you have ideas to improve the material, about formatting, more contents, or correct the errors, do not hesitate to let me know.
 
+<!-- Citation -->
 To cite this content, please use:
+<hr>
+```bibtex
+@misc{handsondsa,
+    author       = {Xiaoxi Celia Lyu, Ruiqi Ricky Zhang},
+    title        = {Hands-on Data Structure and Algorithmic Problem Solving},
+    howpublished = {\url{https://github.com/liyin2015/python-coding-interview/}},
+    year         = {2023}
+}
+```
