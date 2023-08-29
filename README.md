@@ -243,7 +243,7 @@ Consider, for example, a network of computers. If you want to see if two compute
 
 ## Referring Resources and Materials
 
-* [https://www.geeksforgeeks.org/what-is-array/]
+* https://www.geeksforgeeks.org/what-is-array/
 * [https://devopedia.org/linked-list-data-structure]
 * [https://www.programiz.com/dsa/stack]
 * [https://www.javatpoint.com/data-structure-queue]
@@ -270,7 +270,7 @@ To cite this content, please use:
 @misc{handsondsa,
     author       = {Xiaoxi Celia Lyu, Ruiqi Ricky Zhang},
     title        = {Hands-on Data Structure and Algorithmic Problem Solving},
-    howpublished = {\url{https://github.com/liyin2015/python-coding-interview/}},
+    howpublished = {\url{https://github.com/CeliaXxLYU/DataStructure-Algorithm-Intro.git}},
     year         = {2023}
 }
 ```
