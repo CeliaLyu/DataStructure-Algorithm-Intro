@@ -45,13 +45,34 @@ Stay tuned and consider following us for upcoming updates.
 ### Array
 A contiguous block of memory containing elements of the same type. Use an array when you have a fixed number of items and you want quick access to each item based on its position, like books on a numbered shelf. 
 
+<p align="center">
+  <img src="figures/ds_array_1.png" alt="array_1" width="500" height="120" title="Figure 1.1: Visualization of the Array Data Structure: Elements and Indices."/>
+</p>
+
 **Simple Example**
 
 Think of a shelf in a bookstore. The shelf has specific spots for books, numbered from 1 to 100. If you know the number, you can directly reach out and grab the book from its exact location without having to search.
 
+### Linked List
+
+Elements are stored in nodes, and each node points to the next node, forming a chain.
+
+- **Singly Linked List**: Each node has data and a pointer to the next node.
+- **Doubly Linked List**: Each node has data and two pointers, one pointing to the next node and another pointing to the previous node.
+- **Circular Linked List**: The last node in the list points back to the first node.
+
 <p align="center">
-  <img src="figures/ds_array_1.png" alt="array_1" width="500" height="150" title="Figure 1.1: Visualization of the Array Data Structure: Elements and Indices."/>
+  <img src="figures/ds_ll_1.png" alt="ll_1" width="500" height="300" title="Figure 1.2: Visualization of the Linked List Data Structure: Elements and Indices."/>
 </p>
+
+**Simple Example**
+
+Imagine a scavenger hunt game where each hint card has a clue to the location of the next card. The first card leads you to the second, the second leads to the third, and so on until you find the treasure.
+
+
+
+
+
 
 *Note: everything is still in progress, so use it with caution.*
 
