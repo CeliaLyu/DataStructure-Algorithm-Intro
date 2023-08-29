@@ -129,8 +129,6 @@ A hierarchical structure with a root and nodes connected by edges.
 - **Heaps**:
     
     A tree-based data structure used primarily in algorithms like heap sort. Heaps are used when you need frequent access to the 'largest' or 'smallest' element, without the need to sort the entire set of data.
-
-  
     
     **Simple Example**
     
@@ -138,6 +136,10 @@ A hierarchical structure with a root and nodes connected by edges.
     
     - **Max Heap**: For any given node, its value is always greater than or equal to the values of its children. This means the highest value is at the root.
     - **Min Heap**: For any given node, its value is always less than or equal to the values of its children, keeping the smallest value at the root.
+ 
+    <p align="center">
+  <img src="figures/ds_heap_1.png" alt="heap_1" width="400" height="280" title="Figure 1.6: Visualization of the Heap Data Structure: Elements and Indices."/>
+</p>
 
 ### Graph
 
