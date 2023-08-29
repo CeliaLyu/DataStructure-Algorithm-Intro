@@ -4,9 +4,6 @@
 <br> DSA · Python · LeetCode · Principles · Problem patterns<br>
 </div>
 
-<br>
-
-<br>
 <hr>
 
 ## Contributing
