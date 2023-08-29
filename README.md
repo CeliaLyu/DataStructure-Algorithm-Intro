@@ -237,7 +237,7 @@ Consider, for example, a network of computers. If you want to see if two compute
 Think of "two pointers" as two bookmarks in a book. One bookmark starts at the beginning of the book, and the other at the end. They help you keep track of two locations simultaneously.
 
 <p align="center">
-  <img src="figures/al_two_pointers.png" alt="tp_1" width="400" height="260" title="Figure 1.12: Visualization of Two Pointers."/>
+  <img src="figures/al_two_pointers.png" width="600" alt="tp_1" title="Figure 2.1: Visualization of Two Pointers."/>
 </p>
 
 
@@ -256,6 +256,161 @@ In essence, the "two-pointer" approach is like using dual bookmarks to smartly n
 3. **LinkedList Cycles**:
     - Determine if a sequence of items (like a chain of connected elements) has a loop in it. Using one pointer moving faster and one slower, if they ever meet, there's a loop.
 
+### **Sorting**
+
+Sorting is like organizing your books alphabetically on a shelf. It's easier to find a specific book quickly when they're in order, rather than if they were scattered randomly. Similarly, computers can process and find data more efficiently when it's sorted.
+
+**Commonly used sorting algorithms:**
+
+1. **Bubble Sort**:
+    - Think of this as a process where numbers "bubble up" to their right positions. We go through the list from the beginning, comparing each pair of adjacent numbers. If they're in the wrong order, we swap them. We keep doing this until we don’t have to swap anymore. With each pass, the largest number gets "bubbled up" to its correct place at the end.
+        
+<p align="center">
+  <img src="figures/al_bubble_sort.png" width="600" alt="bs_1"  title="Figure 2.2: Visualization of Bubble Sort."/>
+</p>
+        
+2. **Selection Sort**:
+    - This method involves scanning the list repeatedly to find the smallest element. On each pass, we select the smallest number from the unsorted section and swap it with the first unsorted number. As we proceed, the left side of the list becomes sorted, and we reduce the size of the unsorted section until the entire list is sorted.
+        
+<p align="center">
+  <img src="figures/al_selection_sort.png" width="600" alt="ss_1" title="Figure 2.3: Visualization of Selection Sort."/>
+</p>
+        
+3. **Insertion Sort**:
+    - Imagine you're building a sorted list one number at a time. You take one element from the unsorted section and move it back through the sorted section, inserting it in its proper place. You keep doing this for every number, making sure at every step that the left part of the list is always sorted.
+        
+<p align="center">
+  <img src="figures/al_insertion_sort.png" width="600" alt="is_1" title="Figure 2.4: Visualization of Insertion Sort."/>
+</p>
+        
+4. **Quick Sort**:
+    - This is a divide-and-conquer approach. We select a 'pivot' number from the list and partition the other numbers into two groups - those less than the pivot and those greater. We then recursively apply the same process to the two groups. Over time, this process ensures every number finds its rightful position.
+        
+<p align="center">
+  <img src="figures/al_quick_sort.png" width="600" alt="qs_1" title="Figure 2.5: Visualization of Quick Sort."/>
+</p>
+        
+5. **Merge Sort**:
+    - Another divide-and-conquer method. We break the list down into two halves, sort each half independently, and then merge the sorted halves back together. If the halves are still large, we split them again, sort, and merge. This recursive breaking and merging ensures the list gets sorted.
+        
+<p align="center">
+  <img src="figures/al_merge_sort.png" width="600" alt="ms_1" title="Figure 2.6: Visualization of Merge Sort."/>
+</p>
+        
+6. **Heap Sort**:
+    - Here, we transform the list into a special tree structure called a heap. In this structure, parents are always larger than their children. Once the tree structure (or heap) is built, the largest element is at the top. We remove the top element, place it at the end of our list, and then rebuild the heap from the remaining elements. Repeating this process ensures our list gets sorted from largest to smallest.
+        
+<p align="center">
+  <img src="figures/al_heap_sort.png" width="400" alt="hs_1" title="Figure 2.7: Visualization of Heap Sort."/>
+</p>
+        
+7. **Counting Sort**:
+    - Imagine you're in a classroom and you want to know how many students got each possible score on a test. Instead of sorting the scores, you tally how many students received each score. Once you have the counts, you can easily construct a sorted list of scores. Counting Sort operates similarly: instead of comparing elements, it counts how many times each distinct value appears. It then uses those counts to place the values in their correct sorted position. It's most efficient when the range of possible input values (like test scores from 0-100) is not significantly larger than the number of values to be sorted.
+        
+<p align="center">
+  <img src="figures/al_counting_sort.png" width="400" alt="cs_1" title="Figure 2.8: Visualization of Counting Sort."/>
+</p>
+        
+8. **Radix Sort**:
+    - Think of sorting a list of numbers based on each digit, starting from the least significant (the rightmost) and moving to the most significant. It's like sorting library books by their call numbers, one digit at a time. If you were sorting numbers with up to three digits, you'd first group them by the units digit (0-9), then by the tens digit, and finally by the hundreds digit. By the time you've considered all digits, the numbers are sorted. Radix Sort uses this approach, usually in combination with another stable sorting method (like Counting Sort) to sort at each digit's level.
+        
+<p align="center">
+  <img src="figures/al_radix_sort.png" width="600" alt="rs_1" title="Figure 2.9: Visualization of Radix Sort."/>
+</p>
+        
+
+**Data Structures for Sorting Problems**: Certain sorting problems might require specialized data structures or an understanding of a particular type of sort. These include:
+
+- **Binary Heap**: Often used in Heap Sort and to implement priority queues.
+- **Stacks and Queues**: Useful in problems that require a variation of sorting like Topological Sort.
+- **Graph**: Directly related to Topological Sort, which is a linear ordering of vertices such that for every directed edge *uv*, vertex *u* comes before *v* in the ordering.
+- **Trees (like Binary Search Trees)**: They can be in-order traversed to produce a sorted sequence.
+### Topological Sort
+
+A topological sort or topological ordering of a directed graph is a linear ordering of its vertices such that, for every directed edge *AB* from vertex *A* to vertex *B*, *A* comes before *B* in the ordering.
+
+In simpler terms, if you think of the graph as a set of tasks and directed edges as prerequisites (i.e., "task *A* must be completed before task *B* can start"), a topological ordering provides a sequence in which to complete the tasks without violating any prerequisite relationships.
+
+<p align="center">
+  <img src="figures/al_topological_sort.png" width="600" alt="ts_1" width="600" title="Figure 2.10: Visualization of Topological Sort."/>
+</p>
+
+**Properties and Key Points**:
+
+1. **DAGs Only**: Topological sort is applicable only to Directed Acyclic Graphs. If a graph has a cycle, then a topological sort isn't possible because there's no linear ordering that would satisfy every directed edge in the cycle.
+2. **Applications**: It's commonly used in scenarios like:
+    - Task Scheduling: Determining the order of tasks to be performed while respecting dependencies.
+    - Build Systems: In tools like *make*, to figure out the sequence of compiling, ensuring that each module is built before modules that depend on it.
+    - Course Prerequisites: Deciding the order in which college courses should be taken, given some courses rely on knowledge from others.
+3. **Multiple Valid Orders**: It's worth noting that there can be more than one valid topological ordering for a given DAG.
+4. **Algorithm**:
+    - A commonly used algorithm for topological sorting is a depth-first search (DFS) modification. Another approach uses the in-degree (number of incoming edges) of vertices: vertices with zero in-degree (no dependencies) can be taken as the next in the sequence, and once processed, their outgoing edges can be reduced, potentially creating new vertices with zero in-degree.
+
+### Linear Search
+
+This is the simplest searching algorithm. Imagine flipping through a book page by page to find a certain word. You start at the beginning and go in order until you find the word or reach the end. In computer terms, you go through each element in the list one by one until you find the element or determine it's not present.
+
+<p align="center">
+  <img src="figures/al_linear_search.png" width="600" alt="br_1" title="Figure 2.11: Visualization of Linear Search."/>
+</p>
+
+### Binary Search
+
+For this method, the list must be sorted. It's like looking up a word in a dictionary. Instead of flipping through each page, you open the dictionary in the middle and check the word. If your word is earlier in the dictionary, you then focus on the first half. If it's later, you focus on the second half. You keep halving the search interval like this until you find the word or the interval becomes empty. This method is much faster than a linear search for large datasets but requires the data to be ordered.
+
+<p align="center">
+  <img src="figures/al_binary_search.png" width="500" alt="br_1" title="Figure 2.12: Visualization of Binary Search."/>
+</p>
+
+### Hashing
+
+Imagine you're in a large library with billions of books, and you need to find one particular book. Instead of reading each title one by one, the library gives you a unique key based on the book's title, and this key directly corresponds to the book's location on a shelf. Hashing works similarly. It uses a function to convert a search key into an index in a table (called a hash table), where the desired item can be quickly retrieved. However, multiple keys might produce the same index (a collision), so part of this technique's design is handling these cases efficiently
+
+<p align="center">
+  <img src="figures/al_hashing.png" width="400" alt="h_1" title="Figure 2.13: Visualization of Hashing."/>
+</p>
+
+### Recursion
+
+Recursion is a method where the solution to a problem depends on solutions to smaller instances of the same problem. It involves a function calling itself with a smaller input, again and again, until it reaches a condition where it can return a straightforward answer without further recursion.
+
+<p align="center">
+  <img src="figures/al_recursion.png" width="400" alt="r_1" title="Figure 2.14: Visualization of Recursion."/>
+</p>
+
+**Basic Principles**:
+
+1. **Base Case**: For recursion to be effective and to eventually stop, it's crucial to have a condition called the 'base case', which defines situations where the function can return a value without calling itself again.
+2. **Recursive Call**: The function calls itself, usually with a simpler or smaller input. This is to break down complex problems into simpler versions of the same problem.
+
+### BFS / DFS
+
+1. **Depth-First Search (DFS)**:
+    - Used mainly on trees and graphs. Imagine exploring a maze and always choosing the first available path until you reach a dead end. When you hit a dead end, you backtrack and try other paths. DFS dives as deep as possible down one path before backtracking to explore others.
+2. **Breadth-First Search (BFS)**:
+    - Also used on trees and graphs. Imagine being in a maze and exploring every possible path one step at a time. First, you explore all paths one step away, then all paths two steps away, and so on. BFS explores all neighbors at the current depth before moving to nodes at the next depth level.
+
+<p align="center">
+  <img src="figures/al_BFS_DFS.png" width="600" alt="bd_1" title="Figure 2.15: Visualization of DFS/BFS."/>
+</p>
+
+### DP
+
+Dynamic Programming (often abbreviated as DP) is a powerful technique used in algorithm design and computer programming to solve problems by breaking them down into simpler subproblems. It avoids redundant work by storing the results of expensive function calls and returning the cached result when the same inputs occur again.
+
+<p align="center">
+  <img src="figures/al_DP.png" width="400" alt="dp_1" title="Figure 2.15: Visualization of DP."/>
+</p>
+
+**Core Idea**:
+
+1. **Overlap**: Unlike divide-and-conquer algorithms where subproblems do not overlap, DP deals with problems for which the solution involves solving subproblems that are shared between different paths to the solution. This overlapping of subproblems is what allows DP to be effective.
+2. **Optimal Substructure**: The problem has a property that an optimal solution can be constructed from optimal solutions of its subproblems.
+
+**Two Main Components**:
+
+1. **Memoization**: It's the top-down approach where you modify a recursive algorithm to save the result of each subproblem (usually in an array or some data structure). The algorithm then checks the cache to see if a solution has already been computed for the given subproblem. This avoids redundant work and results in a significant speedup.
+2. **Tabulation**: It's the bottom-up approach. Instead of solving the problem with recursive calls, you solve every possible subproblem and store its solution in a table (usually implemented as an array). You then use these solutions to build up solutions to bigger problems until the desired problem size is reached.
 
 *Note: everything is still in progress, so use it with caution.*
 
@@ -275,7 +430,22 @@ In essence, the "two-pointer" approach is like using dual bookmarks to smartly n
 * https://www.geeksforgeeks.org/sparse-matrix-representation/
 * https://www.geeksforgeeks.org/hashing-data-structure/
 * https://iq.opengenus.org/union-find/
-* 
+* https://afteracademy.com/blog/what-is-the-two-pointer-technique/
+* https://www.computersciencebytes.com/sorting-algorithms/bubble-sort/
+* https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/
+* https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/
+* https://medium.com/karuna-sehgal/a-quick-explanation-of-quick-sort-7d8e2563629b
+* https://medium.com/@derekfan/pattern-mergesort-3a6d9fcb5633
+* https://www.alphacodingskills.com/algo/heap-sort.php
+* https://www.thecrazyprogrammer.com/2015/04/counting-sort-program-in-c.html
+* https://www.ritambhara.in/radix-sort/
+* https://medium.com/@konduruharish/topological-sort-in-typescript-and-c-6d5ecc4bad95
+* https://www.simplilearn.com/tutorials/data-structure-tutorial/linear-search-algorithm
+* https://www.geeksforgeeks.org/binary-search/
+* https://en.wikipedia.org/wiki/Hash_function
+* https://www.edureka.co/blog/recursion-in-python/
+* https://www.freelancinggig.com/blog/2019/02/06/what-is-the-difference-between-bfs-and-dfs-algorithms/
+* https://www.freecodecamp.org/news/dynamic-programming-made-easy/
 
 ## Feedback
 
