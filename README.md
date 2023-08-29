@@ -13,30 +13,31 @@ All contributors (with decent amount of contributions) will be listed as authors
 
 <hr>
 
-
-## About this book
+## About this material
 
 In short, this material offers intermediate to advanced algorithm content, tailored to enhance the essential knowledge required for an engineer's role. The structure of the material: 
 * **Data Structures**: These are the building blocks of our computational systems. Understanding them is vital as they lay the groundwork for more complex programming tasks, offering ways to organize, store, and access data efficiently.
 * **Classical algorithms**: Our approach is about more than just understanding algorithms; it's about internalizing their core principles. By diving deep into a range of traditional problems, we build a reference database in our minds, allowing us to quickly draw parallels and solutions when faced with new challenges.
 
-Besides trying to make the content easy to follow, here summarizes the uniqueness of this book: (1) it offers Python source code that is tailored to be simple so that it would be natural for you to use in interviews (2) all the exercises and examples are from Leetcode problems so that you get to practise online (3) Classical algorithms are explained with design principles. No algorithm is magic. (Check out [advanced graph algorithms](https://github.com/liyin2015/Hands-on-Algorithmic-Problem-Solving/blob/master/chapters_pdf/chapter_advanced_graph_algorithm.pdf) as an example) (4) problem patterns to help you tackle coding interview questions topic by topic.
 <hr>
 
-## How did I come up with this book?
-Preparing for the coding interview is not easy! Cracking the coding interview? Nearly impossible for most of us! Luck does play a role in the outcome. So, let's just treat it as a learning process and have some fun!
+## Rationale behind this material
 
-Computer Science is really not just computer science. It is a combination of all fields; our normal interview problems fall into the enumerative combinatorics and our computer vision mostly consists of Linear Algebra. What really matters is our passion to learn and the ability to apply this knowledge to solve real-life problems. 
+Navigating the intricacies of data structures and algorithms can be daunting, especially when applying them in real-world engineering tasks. Yet, mastering them is essential for every engineer striving for excellence in their respective field.
 
-There are plenty of books out there focusing on either teaching algorithmic knowledge  (*Introduction to Algorithms*, *Algorithmic Problem Solving*, etc) or introducing the interview process and solving interview problems(*Cracking the Coding Interview*, *Coding Interview Questions*, etc), but none of these books truly combine the two. This is a book designed to make up this role in the categorization. Principle, Pattern, and Leetcode Problems make up the core of this book.
+At the core of computer science is a fusion of various disciplines. From enumerative combinatorics to linear algebra in computer vision, the essence lies in the application of these principles to solve genuine challenges. What drives progress in this field is not just rote learning, but a genuine passion for understanding and implementing these principles.
 
-This is **NOT** a book that provides hiring statistics for each company or gives the reader quick tricks in order to pass a few coding interviews.  Its purpose is to show you the beauty of algorithmic problem solving in the hope that you will be more passionate and confident about software engineering; the interview questions just set up a playground where we strengthen what we learn. 
+While numerous resources delve into algorithmic theories (Introduction to Algorithms, Algorithmic Problem Solving, and so on) or exclusively focus on interview preparation (Cracking the Coding Interview, Coding Interview Questions, etc.), there's a noticeable gap. Few materials bridge the foundational knowledge with its practical, on-the-job application. This material is designed to fill that void. It underscores principles, patterns, and real-world problem-solving, using algorithmic concepts.
+
+It's essential to note that this material does NOT aim to be a shortcut for interview success or offer hiring insights. Instead, it seeks to illuminate the elegance of algorithmic problem-solving. It's about nurturing a deeper appreciation for software engineering, with interview-style questions serving merely as a practical framework to solidify our understanding.
+
 <hr>
 
 ## For Readers
-[The whole book](Easy-Book/main.pdf) is compiled as pdf.
 
-For readers, you can read the book as a whole or read chapters selectively following the below links. 
+We're in the process of crafting a book now, which is inspired by and expanding upon the core concepts presented in this material.
+
+Stay tuned and consider following us for upcoming updates.
 
 ## Table of Contents
 <hr>
