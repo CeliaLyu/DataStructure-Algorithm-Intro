@@ -14,22 +14,11 @@ All contributors (with decent amount of contributions) will be listed as authors
 <hr>
 
 
-
-
 ## About this book
 
-<p align="center">
-  <img src="figures/book_structure.png" alt="book_structure" width="500" height="300" title="Figure 1. Four umbrellas:  each row indicates corresponding parts as outlined in this book."/>
-</p>
-
-
-In short, this is a middle-to-high level algorithm book designed with cracking coding interviews at hearts. It offers a one-stop coding interview prep experience. The structure of the book: 
-* **Preparation**: introduce the global picture of algorithmic problem solving and coding interviews, learn abstract data structures and highly related and useful math such as recurrence relation, and hands-on Python practice by relating the abstract data structures to Python data structures. *Coding is not just code after all.*, 
-* **Principles**: we organize the design and principle here so that readers can use them as guidance while not seeking for peculiar algorithm for solving a problem. 
-* **Classical algorithms**: We enhance our algorithm database via learning how to apply the core principles to a variety of classical problems. A database that we can quickly relate to when seeing problems.
-* **Coding interview problem patterns**:  We close our book with the analyzing and categorizing problems by patterns. We address classical and best solutions for each problem pattern. 
-
-
+In short, this material offers intermediate to advanced algorithm content, tailored to enhance the essential knowledge required for an engineer's role. The structure of the material: 
+* **Data Structures**: These are the building blocks of our computational systems. Understanding them is vital as they lay the groundwork for more complex programming tasks, offering ways to organize, store, and access data efficiently.
+* **Classical algorithms**: Our approach is about more than just understanding algorithms; it's about internalizing their core principles. By diving deep into a range of traditional problems, we build a reference database in our minds, allowing us to quickly draw parallels and solutions when faced with new challenges.
 
 Besides trying to make the content easy to follow, here summarizes the uniqueness of this book: (1) it offers Python source code that is tailored to be simple so that it would be natural for you to use in interviews (2) all the exercises and examples are from Leetcode problems so that you get to practise online (3) Classical algorithms are explained with design principles. No algorithm is magic. (Check out [advanced graph algorithms](https://github.com/liyin2015/Hands-on-Algorithmic-Problem-Solving/blob/master/chapters_pdf/chapter_advanced_graph_algorithm.pdf) as an example) (4) problem patterns to help you tackle coding interview questions topic by topic.
 <hr>
