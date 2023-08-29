@@ -165,8 +165,8 @@ Think of a social gathering where people are interacting with each other. You ca
 
 A matrix is like a table or grid with rows and columns, where each cell in the grid contains a piece of data. Think of it like an Excel spreadsheet, where you have rows (often represented by numbers) and columns (often represented by letters). The spot where a particular row and column intersect is a cell, and you can store information in it.
 
-    <p align="center">
-  <img src="figures/ds_matrix_1.png" alt="al_1" width="500" height="300" title="Figure 1.10: Visualization of the Matrix Data Structure: Elements and Indices."/>
+  <p align="center">
+  <img src="figures/ds_matrix_1.png" alt="al_1" width="500" height="200" title="Figure 1.10: Visualization of the Matrix Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -182,8 +182,8 @@ Imagine a massive room with many lockers. You have many books, each with a uniqu
 
 A "hash map" works in a similar fashion. It's like this room with lockers. The hash map takes the book title, processes it through a special function (called a "hash function"), and gives you a locker number. You then put the book in that locker or retrieve it from there when needed.
 
-    <p align="center">
-  <img src="figures/ds_hm_1.png" alt="hm_1" width="500" height="300" title="Figure 1.11: Visualization of the Hash Map Data Structure: Elements and Indices."/>
+  <p align="center">
+  <img src="figures/ds_hm_1.png" alt="hm_1" width="500" height="250" title="Figure 1.11: Visualization of the Hash Map Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -211,8 +211,8 @@ Union Find has two primary operations:
 
 By repeatedly using these operations, you can determine which people are connected either directly (by shaking hands) or indirectly (knowing someone who knows someone).
 
-    <p align="center">
-  <img src="figures/ds_uf_1.png" alt="uf_1" width="500" height="300" title="Figure 1.12: Visualization of the Union Find Data Structure: Elements and Indices."/>
+  <p align="center">
+  <img src="figures/ds_uf_1.png" alt="uf_1" width="500" height="400" title="Figure 1.12: Visualization of the Union Find Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
