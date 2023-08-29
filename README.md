@@ -62,7 +62,7 @@ Elements are stored in nodes, and each node points to the next node, forming a c
 - **Circular Linked List**: The last node in the list points back to the first node.
 
 <p align="center">
-  <img src="figures/ds_ll_1.png" alt="ll_1" width="500" height="250" title="Figure 1.2: Visualization of the Linked List Data Structure: Elements and Indices."/>
+  <img src="figures/ds_ll_1.png" alt="ll_1" width="500" height="230" title="Figure 1.2: Visualization of the Linked List Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
