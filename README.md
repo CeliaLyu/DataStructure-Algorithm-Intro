@@ -76,7 +76,7 @@ Imagine a scavenger hunt game where each hint card has a clue to the location of
 A last-in-first-out (LIFO) data structure. Operations mainly include push (to add) and pop (to remove). Use a stack when you want quick access to the most recent item, like a pile of plates.
 
 <p align="center">
-  <img src="figures/ds_stack_1.png" alt="ll_1" width="500" height="210" title="Figure 1.3: Visualization of the Stack Data Structure: Elements and Indices."/>
+  <img src="figures/ds_stack_1.png" alt="ll_1" width="500" height="250" title="Figure 1.3: Visualization of the Stack Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -88,7 +88,7 @@ Think of a stack of plates in a cafeteria. When a new plate is washed, it's plac
 A first-in-first-out (FIFO) data structure. Operations mainly include enqueue (to add) and dequeue (to remove). Use a queue when you need to maintain the order of arrival, like customers waiting in line.
 
 <p align="center">
-  <img src="figures/ds_queue_1.png" alt="ll_1" width="500" height="180" title="Figure 1.4: Visualization of the Queue Data Structure: Elements and Indices."/>
+  <img src="figures/ds_queue_1.png" alt="ll_1" width="500" height="150" title="Figure 1.4: Visualization of the Queue Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
