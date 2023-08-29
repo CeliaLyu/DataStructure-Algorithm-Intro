@@ -129,19 +129,37 @@ A hierarchical structure with a root and nodes connected by edges.
 - **Heaps**:
     
     A tree-based data structure used primarily in algorithms like heap sort. Heaps are used when you need frequent access to the 'largest' or 'smallest' element, without the need to sort the entire set of data.
-    
+
+    - **Max Heap**: For any given node, its value is always greater than or equal to the values of its children. This means the highest value is at the root.
+    - **Min Heap**: For any given node, its value is always less than or equal to the values of its children, keeping the smallest value at the root.
+      
     **Simple Example**
     
     You run a music streaming service, and you want to always recommend the top 10 most listened to songs. As songs get played, their counts change. A heap can help you keep track of the top songs efficiently. When a song is played, you can quickly update its count and its position in the top songs without having to rearrange everything.
-    
-    - **Max Heap**: For any given node, its value is always greater than or equal to the values of its children. This means the highest value is at the root.
-    - **Min Heap**: For any given node, its value is always less than or equal to the values of its children, keeping the smallest value at the root.
  
     <p align="center">
-  <img src="figures/ds_heap_1.png" alt="heap_1" width="450" height="280" title="Figure 1.6: Visualization of the Heap Data Structure: Elements and Indices."/>
+  <img src="figures/ds_heap_1.png" alt="heap_1" width="450" height="280" title="Figure 1.7: Visualization of the Heap Data Structure: Elements and Indices."/>
 </p>
 
 ### Graph
+
+A set of nodes connected by edges. Can be directed (with arrows) or undirected.
+
+**Simple Example**
+
+Think of a social gathering where people are interacting with each other. You can use a graph data structure to keep track of who's talking to whom.
+
+- **Adjacency Matrix**: A 2D array of size V x V where V is the number of vertices in a graph.
+
+    <p align="center">
+  <img src="figures/ds_am_1.png" alt="am_1" width="500" height="300" title="Figure 1.8: Visualization of the Adjacency Matrix Data Structure: Elements and Indices."/>
+</p>
+  
+- **Adjacency List**: An array of lists. The size of the array is the number of vertices.
+
+    <p align="center">
+  <img src="figures/ds_al_1.png" alt="al_1" width="500" height="400" title="Figure 1.9: Visualization of the Adjacency List Data Structure: Elements and Indices."/>
+</p>
 
 ### Matrix
 
