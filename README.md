@@ -7,7 +7,7 @@
 <hr>
 
 ## Contributing
-The book is written in latex, and all contents except the code is located under [**Easy-Book** folder](Easy-Book). Feel free to send me  [pull requests](https://github.com/liyin2015/python-coding-interview/pulls) or email (li.yin.gravity@gmail.com) to contribute contents. Before you start to improve the contents, it would be helpful to know the [high-level structure of the book](#about-this-book). Read [How to contribute?](how_to_contribute.md) for more details.
+The material is written by Celia Lyu (celialyu1024@gmail.com) and Ricky Zhang (ruiqizhang8279@outlook.com). Feel free to send us email to contribute contents. Before you start to improve the contents, it would be helpful to know the [high-level structure of the material](#about-this-material).
 
 All contributors (with decent amount of contributions) will be listed as authors in the project.
 
@@ -31,7 +31,7 @@ The book is written in latex, and all contents except the code is located under 
 All contributors (with decent amount of contributions) will be listed as authors in the project.
 
 
-## About this piece of work
+## About this material
 
 How did we come up with this piece of work?
 
