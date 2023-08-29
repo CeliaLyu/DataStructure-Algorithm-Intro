@@ -268,7 +268,7 @@ To cite this content, please use:
 @misc{handsondsa,
     author       = {Xiaoxi Celia Lyu, Ruiqi Ricky Zhang},
     title        = {Hands-on Data Structure and Algorithmic Problem Solving},
-    howpublished = {\url{https://github.com/CeliaXxLYU/DataStructure-Algorithm-Intro.git}},
+    howpublished = {\url{https://github.com/CeliaLyu/DataStructure-Algorithm-Intro.git}},
     year         = {2023}
 }
 ```
