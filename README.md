@@ -46,7 +46,7 @@ Stay tuned and consider following us for upcoming updates.
 A contiguous block of memory containing elements of the same type. Use an array when you have a fixed number of items and you want quick access to each item based on its position, like books on a numbered shelf. 
 
 <p align="center">
-  <img src="figures/ds_array_1.png" alt="array_1" width="500" height="120" title="Figure 1.1: Visualization of the Array Data Structure: Elements and Indices."/>
+  <img src="figures/ds_array_1.png" alt="array_1" width="500" height="140" title="Figure 1.1: Visualization of the Array Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
@@ -62,7 +62,7 @@ Elements are stored in nodes, and each node points to the next node, forming a c
 - **Circular Linked List**: The last node in the list points back to the first node.
 
 <p align="center">
-  <img src="figures/ds_ll_1.png" alt="ll_1" width="500" height="300" title="Figure 1.2: Visualization of the Linked List Data Structure: Elements and Indices."/>
+  <img src="figures/ds_ll_1.png" alt="ll_1" width="500" height="250" title="Figure 1.2: Visualization of the Linked List Data Structure: Elements and Indices."/>
 </p>
 
 **Simple Example**
