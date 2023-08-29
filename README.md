@@ -237,7 +237,7 @@ Consider, for example, a network of computers. If you want to see if two compute
 Think of "two pointers" as two bookmarks in a book. One bookmark starts at the beginning of the book, and the other at the end. They help you keep track of two locations simultaneously.
 
 <p align="center">
-  <img src="figures/al_two_pointers.png" width="600" alt="tp_1" title="Figure 2.1: Visualization of Two Pointers."/>
+  <img src="figures/al_two_pointers.png" width="500" alt="tp_1" title="Figure 2.1: Visualization of Two Pointers."/>
 </p>
 
 
@@ -266,35 +266,35 @@ Sorting is like organizing your books alphabetically on a shelf. It's easier to 
     - Think of this as a process where numbers "bubble up" to their right positions. We go through the list from the beginning, comparing each pair of adjacent numbers. If they're in the wrong order, we swap them. We keep doing this until we don’t have to swap anymore. With each pass, the largest number gets "bubbled up" to its correct place at the end.
         
 <p align="center">
-  <img src="figures/al_bubble_sort.png" width="600" alt="bs_1"  title="Figure 2.2: Visualization of Bubble Sort."/>
+  <img src="figures/al_bubble_sort.png" width="500" alt="bs_1"  title="Figure 2.2: Visualization of Bubble Sort."/>
 </p>
         
 2. **Selection Sort**:
     - This method involves scanning the list repeatedly to find the smallest element. On each pass, we select the smallest number from the unsorted section and swap it with the first unsorted number. As we proceed, the left side of the list becomes sorted, and we reduce the size of the unsorted section until the entire list is sorted.
         
 <p align="center">
-  <img src="figures/al_selection_sort.png" width="600" alt="ss_1" title="Figure 2.3: Visualization of Selection Sort."/>
+  <img src="figures/al_selection_sort.png" width="500" alt="ss_1" title="Figure 2.3: Visualization of Selection Sort."/>
 </p>
         
 3. **Insertion Sort**:
     - Imagine you're building a sorted list one number at a time. You take one element from the unsorted section and move it back through the sorted section, inserting it in its proper place. You keep doing this for every number, making sure at every step that the left part of the list is always sorted.
         
 <p align="center">
-  <img src="figures/al_insertion_sort.png" width="600" alt="is_1" title="Figure 2.4: Visualization of Insertion Sort."/>
+  <img src="figures/al_insertion_sort.png" width="500" alt="is_1" title="Figure 2.4: Visualization of Insertion Sort."/>
 </p>
         
 4. **Quick Sort**:
     - This is a divide-and-conquer approach. We select a 'pivot' number from the list and partition the other numbers into two groups - those less than the pivot and those greater. We then recursively apply the same process to the two groups. Over time, this process ensures every number finds its rightful position.
         
 <p align="center">
-  <img src="figures/al_quick_sort.png" width="600" alt="qs_1" title="Figure 2.5: Visualization of Quick Sort."/>
+  <img src="figures/al_quick_sort.png" width="500" alt="qs_1" title="Figure 2.5: Visualization of Quick Sort."/>
 </p>
         
 5. **Merge Sort**:
     - Another divide-and-conquer method. We break the list down into two halves, sort each half independently, and then merge the sorted halves back together. If the halves are still large, we split them again, sort, and merge. This recursive breaking and merging ensures the list gets sorted.
         
 <p align="center">
-  <img src="figures/al_merge_sort.png" width="600" alt="ms_1" title="Figure 2.6: Visualization of Merge Sort."/>
+  <img src="figures/al_merge_sort.png" width="500" alt="ms_1" title="Figure 2.6: Visualization of Merge Sort."/>
 </p>
         
 6. **Heap Sort**:
@@ -308,14 +308,14 @@ Sorting is like organizing your books alphabetically on a shelf. It's easier to 
     - Imagine you're in a classroom and you want to know how many students got each possible score on a test. Instead of sorting the scores, you tally how many students received each score. Once you have the counts, you can easily construct a sorted list of scores. Counting Sort operates similarly: instead of comparing elements, it counts how many times each distinct value appears. It then uses those counts to place the values in their correct sorted position. It's most efficient when the range of possible input values (like test scores from 0-100) is not significantly larger than the number of values to be sorted.
         
 <p align="center">
-  <img src="figures/al_counting_sort.png" width="400" alt="cs_1" title="Figure 2.8: Visualization of Counting Sort."/>
+  <img src="figures/al_counting_sort.png" width="500" alt="cs_1" title="Figure 2.8: Visualization of Counting Sort."/>
 </p>
         
 8. **Radix Sort**:
     - Think of sorting a list of numbers based on each digit, starting from the least significant (the rightmost) and moving to the most significant. It's like sorting library books by their call numbers, one digit at a time. If you were sorting numbers with up to three digits, you'd first group them by the units digit (0-9), then by the tens digit, and finally by the hundreds digit. By the time you've considered all digits, the numbers are sorted. Radix Sort uses this approach, usually in combination with another stable sorting method (like Counting Sort) to sort at each digit's level.
         
 <p align="center">
-  <img src="figures/al_radix_sort.png" width="600" alt="rs_1" title="Figure 2.9: Visualization of Radix Sort."/>
+  <img src="figures/al_radix_sort.png" width="500" alt="rs_1" title="Figure 2.9: Visualization of Radix Sort."/>
 </p>
         
 
@@ -332,7 +332,7 @@ A topological sort or topological ordering of a directed graph is a linear order
 In simpler terms, if you think of the graph as a set of tasks and directed edges as prerequisites (i.e., "task *A* must be completed before task *B* can start"), a topological ordering provides a sequence in which to complete the tasks without violating any prerequisite relationships.
 
 <p align="center">
-  <img src="figures/al_topological_sort.png" width="600" alt="ts_1" width="600" title="Figure 2.10: Visualization of Topological Sort."/>
+  <img src="figures/al_topological_sort.png" width="500" alt="ts_1" title="Figure 2.10: Visualization of Topological Sort."/>
 </p>
 
 **Properties and Key Points**:
@@ -351,7 +351,7 @@ In simpler terms, if you think of the graph as a set of tasks and directed edges
 This is the simplest searching algorithm. Imagine flipping through a book page by page to find a certain word. You start at the beginning and go in order until you find the word or reach the end. In computer terms, you go through each element in the list one by one until you find the element or determine it's not present.
 
 <p align="center">
-  <img src="figures/al_linear_search.png" width="600" alt="br_1" title="Figure 2.11: Visualization of Linear Search."/>
+  <img src="figures/al_linear_search.png" width="500" alt="br_1" title="Figure 2.11: Visualization of Linear Search."/>
 </p>
 
 ### Binary Search
