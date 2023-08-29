@@ -123,7 +123,7 @@ A hierarchical structure with a root and nodes connected by edges.
     You're designing the search functionality for a dictionary app. When a user starts typing "choc", you want to immediately suggest words like "chocolate", "chock", and "chock-full". A trie can help you do this efficiently since it can quickly narrow down the list of words based on the typed prefix.
 
   <p align="center">
-  <img src="figures/ds_tries_1.png" alt="tries_1" width="500" height="400" title="Figure 1.6: Visualization of the Tries Data Structure: Elements and Indices."/>
+  <img src="figures/ds_tries_1.png" alt="tries_1" width="500" height="300" title="Figure 1.6: Visualization of the Tries Data Structure: Elements and Indices."/>
 </p>
 
 - **Heaps**:
