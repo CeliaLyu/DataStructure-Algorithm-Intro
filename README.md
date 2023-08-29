@@ -50,7 +50,7 @@ A contiguous block of memory containing elements of the same type. Use an array 
 Think of a shelf in a bookstore. The shelf has specific spots for books, numbered from 1 to 100. If you know the number, you can directly reach out and grab the book from its exact location without having to search.
 
 <p align="center">
-  <img src="figures/ds_array_1.png" alt="array_1" width="500" height="300" title="Figure 1.1: Visualization of the Array Data Structure: Elements and Indices."/>
+  <img src="figures/ds_array_1.png" alt="array_1" width="500" height="150" title="Figure 1.1: Visualization of the Array Data Structure: Elements and Indices."/>
 </p>
 
 *Note: everything is still in progress, so use it with caution.*
